@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Fernando Hugo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.jpg" alt="Logo" class="logo">
+  <h1 id="header-name">Fernando Hugo Ferreira</h1>
+  <nav>
+    <a href="#" data-modal="about">Sobre mim</a>
+    <a href="#" data-modal="skills">Habilidades</a>
+    <a href="#" data-modal="projects">Projetos</a>
+  </nav>
+</header>
+
+<section id="about" class="about">
+  <h2>Sobre mim</h2>
+  <div class="about-container">
+    <img src="perfil.jpg" alt="Foto de Fernando" class="profile-pic">
+    <p>Sou Instrumentador Cirúrgico há 11 anos e atualmente em transição de carreira para a área de tecnologia. Tenho estudado Engenharia de Software e desenvolvido projetos de forma autodidata, com foco em Full Stack Development. Minha maior qualidade é a capacidade de aprender rápido e transformar ideias em código.</p>
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Habilidades</h2>
+  <div class="skills-list">
+    <div class="skill" data-skill="html"><span class="skill-name">HTML</span><div class="skill-bar" data-level="90%"></div></div>
+    <div class="skill" data-skill="css"><span class="skill-name">CSS</span><div class="skill-bar" data-level="85%"></div></div>
+    <div class="skill" data-skill="js"><span class="skill-name">JavaScript</span><div class="skill-bar" data-level="75%"></div></div>
+    <div class="skill" data-skill="git"><span class="skill-name">Git & GitHub</span><div class="skill-bar" data-level="70%"></div></div>
+    <div class="skill" data-skill="node"><span class="skill-name">Node.js</span><div class="skill-bar" data-level="60%"></div></div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <h2>Projetos</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Projeto 1</h3>
+      <p>Desenvolvimento de um site de Dragon Ball Z.</p>
+      <a href="https://fernando-hugo.github.io/projeto-nando-dbz/" target="_blank"><i class="fa-brands fa-github"></i> Ver no GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Projeto 2</h3>
+      <p>Landing page de desafio com layout fiel ao design do Figma.</p>
+      <a href="https://fernando-hugo.github.io/rid-214924_Desafio1/" target="_blank"><i class="fa-brands fa-github"></i> Ver no GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Projeto 3</h3>
+      <p>Portfólio Online desenvolvido em HTML, CSS e JS com design moderno e interativo.</p>
+      <a href="https://github.com/seuusuario/portfolio" target="_blank"><i class="fa-brands fa-github"></i> Ver no GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contato</h2>
+  <p>📧 Email: <a href="mailto:fernandohugoferreira@gmail.com">fernandohugoferreira@gmail.com</a></p>
+  <p>📷 Instagram: 
+  <a href="https://www.instagram.com/fernandinho.hugo/" target="_blank">
+    <i class="fa-brands fa-instagram"></i> @fernandinho.hugo
+  </a>
+  </p>
+  <p>💻 GitHub: <a href="https://github.com/fernando-hugo" target="_blank">https://github.com/fernando-hugo</a></p>
+</section>
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <div id="modal-text"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<footer>
+  <p>© 2025 DaarkStar. Todos os direitos reservados.</p>
+  <p>Desenvolvido por <strong>Fernando Hugo Ferreira</strong></p>
+</footer>
+
+
+
